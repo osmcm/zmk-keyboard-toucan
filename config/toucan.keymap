@@ -16,7 +16,7 @@
             then-layer = <3>;
         };
     };
-     behaviors {
+    behaviors {
         &mt {
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
@@ -25,7 +25,7 @@
     };
 
     keymap {
-        compatible = "zmk,keymap"
+        compatible = "zmk,keymap";
         base {
             display-name = "BASE";
             bindings = <
