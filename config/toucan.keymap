@@ -16,6 +16,13 @@
             then-layer = <3>;
         };
     };
+     behaviors {
+        &mt {
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
