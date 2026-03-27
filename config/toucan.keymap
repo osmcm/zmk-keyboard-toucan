@@ -19,7 +19,7 @@
     };
     behaviors {
         compatible = "zmk,behavior-hold-tap";
-        mt: mod_tap {
+        umt: mod_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
