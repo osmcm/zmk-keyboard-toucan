@@ -16,13 +16,13 @@
             then-layer = <3>;
         };
     };
-    &mt {
-        flavor = "tap-preferred";
-    };
 
     keymap {
         compatible = "zmk,keymap";
-
+        &mt {
+            quick-tap-ms = <200>;
+            flavor = "tap-preferred";
+        };
         base {
             display-name = "BASE";
             bindings = <
