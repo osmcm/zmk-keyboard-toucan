@@ -25,11 +25,7 @@
     };
 
     keymap {
-        compatible = "zmk,keymap";
-        &mt {
-            quick-tap-ms = <200>;
-            flavor = "tap-preferred";
-        };
+        compatible = "zmk,keymap"
         base {
             display-name = "BASE";
             bindings = <
