@@ -26,9 +26,6 @@
             then-layer = <3>;
         };
     };
-    behaviors {
-        compatible = "zmk,behavior-hold-tap";
-
 
     keymap {
         compatible = "zmk,keymap";
